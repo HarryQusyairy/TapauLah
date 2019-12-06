@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
@@ -22,6 +23,7 @@ public class SignUp extends AppCompatActivity {
 
     EditText edtName, edtPhoneNum, edtEmail, edtPassword, edtConPass;
     Button btnSignUp;
+    TextView signin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,11 +35,20 @@ public class SignUp extends AppCompatActivity {
         edtEmail = (EditText) findViewById(R.id.edtEmail);
         edtPassword = (EditText) findViewById(R.id.edtPassword);
         edtConPass = (EditText) findViewById(R.id.edtConPass);
+        signin = (TextView)findViewById(R.id.signin);
         btnSignUp = (Button) findViewById(R.id.btnSignUp);
 
         // Init Firebase
         FirebaseDatabase database = FirebaseDatabase.getInstance();
         final DatabaseReference table_user = database.getReference("Users");
+
+        signin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent signin = new Intent(SignUp.this, SignIn.class);
+                startActivity(signin);
+            }
+        });
 
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
