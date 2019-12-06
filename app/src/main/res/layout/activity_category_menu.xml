@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#544C9B"
+    tools:context=".CategoryMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/text_SignIn"
+            android:text="@string/DescCategories"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:drawableTop="@drawable/customer"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:shadowRadius="100"
+            android:text="Customer"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:drawableTop="@drawable/delivery"
+            android:paddingTop="10dp"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:shadowRadius="100"
+            android:text="Delivery"
+            android:textSize="20dp"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

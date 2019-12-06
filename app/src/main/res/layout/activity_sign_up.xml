@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#544C9B"
+    tools:context=".SignUp">
+
+    <LinearLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/logo"/>
+
+        <TextView
+            android:id="@+id/text_SignUp"
+            android:text="@string/SignUp"
+            android:gravity="center"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_below="@id/header"
+            android:background="@drawable/edit_round"
+            android:drawableLeft="@drawable/edit_name"
+            android:paddingLeft="5dp"
+            android:drawablePadding="10dp"
+            android:hint="Enter Name"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/edtPhoneNum"
+            android:layout_below="@id/edtName"
+            android:background="@drawable/edit_round"
+            android:drawableLeft="@drawable/edit_dob"
+            android:paddingLeft="5dp"
+            android:drawablePadding="10dp"
+            android:hint="Enter Phone Number"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_below="@id/edtPhoneNum"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:background="@drawable/edit_round"
+            android:drawableLeft="@drawable/edit_email"
+            android:paddingLeft="5dp"
+            android:drawablePadding="10dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"/>
+
+        <EditText
+            android:id="@+id/edtPassword"
+            android:layout_below="@id/edtEmail"
+            android:background="@drawable/edit_round"
+            android:drawableLeft="@drawable/edit_password"
+            android:paddingLeft="5dp"
+            android:drawablePadding="10dp"
+            android:hint="Enter Password"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/edtConPass"
+            android:layout_below="@id/edtPassword"
+            android:background="@drawable/edit_round"
+            android:drawableLeft="@drawable/edit_password"
+            android:paddingLeft="5dp"
+            android:drawablePadding="10dp"
+            android:hint="Enter Confirm Password"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:inputType="textPassword"/>
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/edtConPass"
+            android:shadowRadius="4"
+            android:shadowDy="5"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:background="@android:color/holo_blue_bright"/>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

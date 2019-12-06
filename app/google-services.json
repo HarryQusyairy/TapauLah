@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "590607868697",
+    "firebase_url": "https://androidtapaulah.firebaseio.com",
+    "project_id": "androidtapaulah",
+    "storage_bucket": "androidtapaulah.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590607868697:android:5497f1b374a161c7849b88",
+        "android_client_info": {
+          "package_name": "com.cat300.tapaulah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590607868697-0uk21i06u4k1vi9r03titohe0slauju0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cat300.tapaulah",
+            "certificate_hash": "3047c39261a82dbd373f2a1ff5c91a7fb4755fe1"
+          }
+        },
+        {
+          "client_id": "590607868697-gb28mjk1sqpp6mhvaon8arhsqj6mocli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDTzZ3Ccq0lZe3XdQl5HmemTHsI1ZPWjw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590607868697-gb28mjk1sqpp6mhvaon8arhsqj6mocli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
