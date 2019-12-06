@@ -8,25 +8,25 @@
     <fragment
         android:id="@+id/nav_home"
         android:name="com.cat300.tapaulah.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="@string/menu_menu"
         tools:layout="@layout/fragment_home" />
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.cat300.tapaulah.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="@string/menu_menu"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.cat300.tapaulah.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="@string/menu_menu"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
         android:id="@+id/nav_tools"
         android:name="com.cat300.tapaulah.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="@string/menu_menu"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
